@@ -1,0 +1,31 @@
+# Специфично для Visual Studio
+.vs/
+out/
+build/
+x64/
+x86/
+Debug/
+Release/
+*.user
+*.suo
+*.db
+*.opendb
+*.ipch
+*.log
+
+# Временные исполняемые файлы
+*.exe
+*.o
+*.obj
+*.out
+
+# Python кэш и виртуальные окружения
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Текстовые файлы с матрицами и результатами (чтобы не перегружать репозиторий гигабайтами матриц)
+matrix*.txt
+result*.txt
+res*.txt
